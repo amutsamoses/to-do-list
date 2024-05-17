@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@100..900&family=Josefin+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.upper {
+  background-image: url("./images/bg-desktop-dark.jpg");
+  height: 250px;
+}
+
+.title {
+  line-height: normal;
+  text-align: left;
+  padding-left: 28rem;
+  padding-top: 5rem;
+  font-weight: 600;
+}
+.title > h1 > span {
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.7rem;
+}
+
+.typing {
+  display: block;
+  text-align: left;
+
+  padding: 0.1rem 1rem;
+  box-sizing: border-box;
+  border-radius: 0.2rem;
+  background-color: hsl(234, 11%, 52%);
+  width: 30%;
+  height: 20%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.typing:first-child {
+  padding: 1rem;
+}
+
+.radio {
+  margin-right: 25px;
+}
+
+.todo-filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: 30%;
+  margin-top: 17rem;
+  align-items: center;
+  background-color: hsl(233, 14%, 35%);
+}
+
+.todo-filters button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#items-left {
+  margin-right: 1rem;
+}
+
+/* .exercise {
+  box-sizing: border-box;
+  border-radius: 0.2rem;
+  background-color: hsl(236, 33%, 92%);
+  padding: 2rem;
+  margin: auto;
+  width: 30%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.exercise .list {
+  padding: 2rem;
+  box-sizing: border-box;
+  border-radius: 0.2rem;
+  background-color: hsl(236, 33%, 92%);
+} */
+/* 
+.exercise {
+  box-sizing: border-box;
+  border-radius: 0.2rem;
+  border: hsl(from color h s l);
+  text-align: center;
+  padding: 1.5rem;
+  background-color: hsl(234, 39%, 85%);
+  width: 30%;
+  text-decoration: none;
+  margin: auto;
+  margin-top: 2.5rem;
+  list-style-type: none;
+  border: 1px solid black;
+}
+
+.exercise .list {
+  list-style: none;
+}
+
+.exercise .list label {
+  padding: 1rem;
+  list-style-type: none;
+  border: 1px solid white;
+  color: #fff;
+} */
+
+.lower-section {
+  padding-bottom: 19rem;
+  text-align: center;
+  font-size: 12px;
+  background-color: hsl(237, 14%, 26%);
+}
+
+.lower-section p {
+  padding-bottom: 2rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 19rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
